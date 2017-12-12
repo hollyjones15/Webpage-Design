@@ -1,0 +1,98 @@
+/*
+* Holly Jones 
+* 11 December 2017
+* This is a webpage about the endangered species of the Saola.
+*/
+
+
+/* The universal selector */
+
+* {
+	margin:0;
+	padding:0;
+}
+
+/* Put body attributes here */
+
+body { 
+		background-color: #F2C399;
+		font-size: 155%;
+		/* text-align: left; */
+		font-family: Arial;
+		padding: 5px;
+		}
+/* This is where I change the fonts, size, and decoration of all the text */
+
+.topimg { 
+		float: left;
+		height: 130px;
+		width: 25%;
+		margin: 10px;
+		padding: 5px;
+		border: 2px dashed;
+	}
+img { 
+		height: 175px;
+		width: 195px;
+		margin: 10px;
+		padding: 5px;
+		border: 2px dashed;
+		
+	}
+
+
+h1 {
+		font-size: 195%;
+		text-align: center;
+		text-decoration: underline;
+		font-family: Arial;
+		color: #3CC440;
+		margin-top: 10px;
+		margin-bottom: 15px;
+	}
+
+h2 {
+		font-size: 165%;
+		/* text-align: left; */
+		text-decoration: underline;
+		font-family: Arial;
+		color: #3CC440;
+		margin-top: 10px;
+		margin-bottom: 15px;
+	}
+h3 {
+		font-size: 165%;
+		/* text-align: left; */
+		text-decoration: underline;
+		font-family: Arial;
+		color: #3CC440;
+		margin-top: 10px;
+		margin-bottom: 15px;
+	}
+	
+h4 { 
+		font-size: 165%
+		/* text-align: left; */
+		text-decoration: underline;
+		font-family: Arial;
+		color: #3CC440;
+		margin-top: 10px;
+		margin-bottom: 15px;
+	}
+a:link {
+		color: blue;
+		}
+		
+a:hover, a:focus{
+				color: fuchsia;
+				font-size: 145%;
+				text-decoration: underline;
+			 	}
+			 	
+a:active {
+		  color: fuchsia;
+		  }
+main { 
+		border: 2px solid #3CC440;
+		
+}
