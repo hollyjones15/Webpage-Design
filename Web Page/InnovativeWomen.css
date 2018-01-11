@@ -1,0 +1,77 @@
+
+/* Holly Jones */
+/* Innovative Women Project */
+/* January 11, 2018 */
+
+* { 
+    margin: 0;
+    padding: 0; }
+/*This header creates a solid border, and an underline under the heading*/
+header { 
+    border-bottom: 2px solid #000000;
+    text-decoration: underline;
+     }
+/*This adds the orange color to the background, the margins, and a solid black border*/
+body {
+    width: 80%;
+    background-color: #F9AF6E;
+    margin: 15px auto;
+    border: 2px solid black; }
+/*This text helps to float my text and give it a certain size to the font, also this specifies the height and width
+of the side bar*/
+#sidebarA {
+    width: 30%;
+    height: 400px;     
+    float: left;
+    font-size: 16px; }
+/*This specifies all of my instructions for my images such as the padding, border, and size*/
+img {
+	width: 100px;
+	height: 100px;
+	float: bottom;
+	padding: 10px;
+	border: 2px dashed;
+	margin: 15px;
+	}
+.top { float:left;
+	}
+/*This specifies the font size for my lists*/
+ol {
+	margin:23px;
+	}	
+ul {
+	margin:23px;
+	}
+/*This gives instructions for the text in main*/
+main {
+    width: 38%; 
+    float: left;
+    font-size: 15px;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    padding:5px;
+     }
+/*This gives the height, width, and the text instructions for this sidebar*/
+#sidebarB {
+    width: 30%;
+    height: 400px;     
+    float: right;
+    font-size: 16px; }
+
+footer {
+    clear: both; 
+    border-top: 2px solid #000000; }
+/*This makes my link pop out and turn a lighter color when you hover over them*/
+a:link {
+		color: blue;
+		}
+		
+a:hover, a:focus{
+				color: fuchsia;
+				font-size: 145%;
+				text-decoration: underline;
+			 	}
+			 	
+a:active {
+		  color: fuchsia;
+		  }
